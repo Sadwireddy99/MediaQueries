@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en"
+    <head>
+        <title>Relative Position</title>
+        <style>
+            .common{
+                width : 100px;
+                height:100px;
+                border: 1px solid lightcoral;
+                
+            }
+            .c1{
+                background-color: salmon;
+                
+
+            }
+            .c2{
+                background-color: greenyellow;
+                position: relative;
+                left:20px;
+                bottom: 80px;
+               
+            }
+            .c3{
+                background-color: darkmagenta;
+                position: relative;
+                left : 130px;
+                bottom:80px;
+                z-index: 100;
+            }
+            .c4{
+                background-color: deeppink;
+                position: relative;
+                left:120px;
+                bottom :160px;
+                z-index: 80;
+            }
+            .c5{
+                background-color: olivedrab;
+                position: relative;
+                left:80px;
+                bottom:320px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="common c1">1</div>
+        <div class="common c2">2</div>
+        <div class="common c3">3</div>
+        <div class="common c4">4</div>
+        <div class="common c5">5</div>
+    </body>
+</html>

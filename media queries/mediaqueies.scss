@@ -1,0 +1,50 @@
+$mobile:576px;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    height:100%;
+      
+    &__header{
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo{
+            &__img{
+                width: 10vw;
+
+            }
+        }
+        &__menu{
+            display: flex;
+            gap: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+
+        }
+        a:hover{
+            color: orange;
+        }
+    }
+}
+@media (max-width:$mobile) {
+    .parent__header{
+        justify-content: center;
+        &__logo{
+            &__img{
+                width:25vw;
+            }
+        }
+        &__menu{
+            display: none;
+        }
+    }
+}

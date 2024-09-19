@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .parent{
+                display: grid;
+                height: 100vh;
+                gap:2rem;
+                background-color: azure;
+                grid-template-columns: 33.33% 33.33% 33.33%;
+                grid-template-rows: 20% 20% 60%;
+            }
+            .header{
+                background-color: aqua;
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            
+            .search{
+                background-color: blueviolet;
+                grid-column: 1/3;
+                grid-row: 2/3;
+            }
+            .leftslide{
+                background-color: burlywood;
+                grid-column:1/2 ;
+                grid-row: 3/4;
+            }
+            .maincolumn{
+                background-color: darkcyan;
+                grid-column: 2/3;
+                grid-row: 3/4;
+
+            }
+            .rightslide{
+                background-color: darkmagenta;
+                grid-column:3/4 ;
+                grid-row: 2/4;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">Header</div>
+            <div class="search">Search</div>
+            <div class="leftslide">Leftslide</div>
+            <div class="maincolumn">Maincoloum</div>
+            <div class="rightslide">RightSlide</div>
+
+        </div>
+
+    </body>
+</html>

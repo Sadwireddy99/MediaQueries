@@ -1,0 +1,25 @@
+.c1{
+    background-image : url("/OIP.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+#id1{
+    background-image: url("/download.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.c2{
+    background-image: url(/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+div{
+    border: 1px solid aqua;
+    width: 75%;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 20px;
+}

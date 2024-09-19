@@ -1,0 +1,22 @@
+ol,ul{
+    background-color: aquamarine;
+    border: 1px solid gold;
+    width: 20%;
+    margin : 20px;
+    
+    border-radius: 10px;
+}
+li{
+    background-color: palevioletred;
+    border: 1px solid firebrick;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+li::marker{
+    color: aqua;
+}
+li:hover{
+    background-color: darkmagenta;
+}
